@@ -12,7 +12,7 @@
 // Constants & Variables - These are known as "Stored Values" in Swift
 
 // Use the 'let' keyword to define a constant
-let maximumNumberOfLoginAttempts = 10
+let maximumNumberOfLoginAttempts = 11
 
 // Use the 'var' keyword to define a variable
 //
@@ -58,7 +58,7 @@ let 🐶🐮 = "dogcow"
 
 // You can print a value using println
 let fiveHundred = 500
-println("The current value of fiveHundred is: \(fiveHundred)")
+print("The current value of fiveHundred is: \(fiveHundred)")
 
 // Since we're using Playgrounds, we'll just put the raw string on the line which is an expression
 // that evaluates to itself, printing the result in the right-hand pane in the playground, like so:
@@ -154,6 +154,9 @@ UInt8.min
 UInt8.max
 Int32.min
 Int32.max
+
+UInt64.max
+Int.max
 
 // ------------------------------------------------------------------------------------------------
 // Floating point numbers

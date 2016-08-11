@@ -20,3 +20,13 @@ struct MySimpleStruct
 typealias MyAliasedName = MySimpleStruct
 MyAliasedName.a
 
+
+let names2=["K","F","N"]
+
+typealias NamesArray = [String]
+
+func combine(names:NamesArray) -> String {
+    return names.joinWithSeparator("&")
+}
+
+combine(names2)
